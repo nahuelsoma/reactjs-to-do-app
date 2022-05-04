@@ -2,7 +2,13 @@ import React from "react";
 import "./CreateTodoButton.css";
 
 function CreateTodoButton() {
-  return <button className="CreateTodoButton">+</button>;
+  const onClickButton = () => {};
+
+  return (
+    <button className="CreateTodoButton" onClick={onClickButton}>
+      +
+    </button>
+  );
 }
 
 export { CreateTodoButton };
