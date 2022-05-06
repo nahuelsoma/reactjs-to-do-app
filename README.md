@@ -1,3 +1,9 @@
+# This app is available in operation by clicking [here](https://nasc12.github.io/to-do-app).
+
+This app was created using React.
+
+Its function is to create a list of pending tasks. These can be checked as completed and/or deleted if needed.-
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
