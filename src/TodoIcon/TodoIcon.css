@@ -1,0 +1,62 @@
+.Icon-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+}
+
+.Icon-container--check {
+  position: absolute;
+  left: 12px;
+  background-color: #dddddd;
+  border-radius: 50%;
+}
+
+.Icon-container--delete {
+  position: absolute;
+  right: 12px;
+  background-color: #dddddd;
+  border-radius: 50%;
+}
+
+.Icon-container--check .Icon-svg {
+  width: 19px;
+  height: 19px;
+  transition: fill .15s;
+}
+
+.Icon-container--delete .Icon-svg {
+  width: 16px;
+  height: 16px;
+  transition: fill .15s;
+}
+
+.Icon-container--check:hover .Icon-svg--check {
+  fill: #4caf50;
+}
+
+.Icon-container--check:hover {
+  background-color: #4caf4f46;
+}
+
+.Icon-container--delete:hover .Icon-svg--delete {
+  fill: rgb(167, 1, 1);
+}
+
+.Icon-container--delete:hover {
+  background-color: rgba(255, 0, 0, 0.267);
+}
+
+.TodoItem--complete .Icon-container--check {
+  background-color: #4caf4f46;
+}
+
+.TodoItem--complete .Icon-container--delete {
+  background: rgba(255, 0, 0, 0.267);
+}
+
+.TodoItem--complete .Icon-container--delete .Icon-svg--delete {
+  fill: rgb(167, 1, 1);
+}

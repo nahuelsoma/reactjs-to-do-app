@@ -21,12 +21,12 @@
     line-height: 24px;
     font-weight: 400;
   }
+
   .TodoItem-p--complete {
-    /* text-decoration: line-through; */
     color: #1f5020;
   }
   
-  .Icon {
+  /* .Icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -38,26 +38,27 @@
     font-weight: bold;
     background-color: #CCC;
     border-radius: 50%;
-  }
+  } */
   
-  .Icon-check {
+  /* .Icon-check {
     position: absolute;
     left: 18px;
-  }
-  .Icon-check--active {
+  } */
+
+  /* .Icon-check--active {
     color: #4caf50;
     background-color: #4caf4f4d;
-  }
+  } */
   
-  .Icon-delete {
+  /* .Icon-delete {
     position: absolute;
     top: -12px;
     right: 12px;
-  }
-  .Icon-delete:hover {
+  } */
+  /* .Icon-delete:hover {
     color: rgb(190, 0, 0);
     background-color: rgb(255, 193, 193);
     border: 1px solid rgb(190, 0, 0);
-  }
+  } */
   
   

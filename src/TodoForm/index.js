@@ -22,11 +22,11 @@ function TodoForm() {
 
   return (
     <form onSubmit={onSubmit}>
-      <label>Escribe tu nuevo To Do</label>
+      <label>Adding a new task</label>
       <textarea
         value={newTodoValue}
         onChange={onChange}
-        placeholder="Escribe una nueva tarea"
+        placeholder="Add your new task here"
       />
       <div className="TodoForm-buttonContainer">
         <button
@@ -34,11 +34,11 @@ function TodoForm() {
           className="TodoForm-button TodoForm-button-cancel"
           onClick={onCancel}
         >
-          Cancelar
+          Cancel
         </button>
 
         <button className="TodoForm-button TodoForm-button-add" type="submit">
-          Añadir
+          Add
         </button>
       </div>
     </form>
