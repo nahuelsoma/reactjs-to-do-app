@@ -1,4 +1,4 @@
-# This app is available in operation by clicking [here](https://nasc12.github.io/to-do-app).
+# You can test this application by following [this link](https://nasc12.github.io/to-do-app).
 
 This app was created using React.
 
