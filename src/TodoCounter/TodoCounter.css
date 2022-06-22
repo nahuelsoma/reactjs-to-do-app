@@ -4,3 +4,7 @@
     margin: 0;
     padding: 24px;
   }
+
+  .TodoCounter__loading {
+    opacity: 25%;
+  }
